@@ -8,7 +8,7 @@ namespace RentalOffer.Core {
 		public string Name;
 		public string Value;
 	}
-
+	
 	public class Member
 	{
 		public string Id;
@@ -18,10 +18,10 @@ namespace RentalOffer.Core {
 
     public class NeedPacket
     {
-	    public string Id;
-		public string Need;
+	public string Id;
+	public string Need;
         public List<Solution> Solutions = new List<Solution>();
-	    public DateTime Time = DateTime.Now;
-	    public Member Member;
+	public DateTime Time = DateTime.Now;
+	public Member Member;
     }
 }
